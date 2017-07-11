@@ -15,99 +15,14 @@
 \pagenumbering{gobble}
 
 \begin{document}
-%\section{Introduction/Self-Reflection}
 
-My scientific interest and work straddle disciplinary boundaries between biology and computing and, more broadly, between engineering and science.
-I love to both explore and to create.
-From many years of playing the oboe, I would describe science and engineering like studying the theory and history of a piece and performing it; exploring and creating inform each other and, together, are electric.
-In sixth grade, right while I began playing the oboe, I also got my start in biology.
-I remember hot gluing a collection of tiny beads to my cardboard cell model, struggling to deduce how the rather simplistic descriptions of organelles we had learned could account for the entirety of a cohesive system.
-My first reaction was disbelief that a system governed by random interactions between innumerable independent components could function cohesively.
-In the next breath, though, I realized it must be possible; evidence --- and, ultimately, answers to the question of ``how?'' --- permeates our living world.
-From that point onward, the astonishing structures and mechanisms embedded at every level of biological organization have continuously delighted me;
-in particular, I am captivated by the paradigm of emergence that underlies biological systems.
-I find studying and researching biology to be exploration in the truest, most adventurous, sense of the word.
-My career aspiration is in the field bio-AI, harnessing biologically-inspired approaches for the design of intelligent systems.
-I believe that my unique set of interests, straddling between biology and computing and, more broadly, between engineering and science, set me apart and will continue to distinguish my work.
+\input{tex/introduction.tex}
 
-%\section{Research History}
-My first foray into research was with the Fowler Laboratory at Oregon State University during the summers of 2011 and 2012.
-I recall, while examining the translucent roots of a few dozen delicate seedlings on parafilm-sealed petri dishes for characteristically stumpy mutants, experiencing a sense of exhilarating self-awareness; I relished the purpose, discipline, and curiosity of my work.
-My research goal was to identify proteins that interacts interact with the exocyst complex.
-I screened populations of \textit{Arabidopsis thaliana}, a model organism in plant biology, for a 13:3:1 phenotypic ratio telltale of synergistic interaction between a known mutation to the exocyst complex and a mildly deleterious mutation at an independently-assorting locus.
-After performing a statistical analysis of my observations, I flagged two populations for further analysis.
-My mentor, research assistant Rex Cole, and I hoped that identification of novel exocyst interactors, or confirmation of known exocyst interactors, would shed light on the role of the exocyst in plants.
-Although not immediately translating to technological or commercial ends, as fundamental research such work is key to opening avenues of inquiry for future study and, ultimately, in paving the way for other more applied advances.
-After my time at the Fowler lab, I continued working in botany and horticulture for two years, studying the molecular biology of vineyard grape development with the Deluc laboratory and developing berry cultivars for the fresh fruit and processed food markets with the USDA Finn group.
-From my work in laboratory biology, I became versed in the carefully-considered design and methodological meticulousness experimental inquiry requires, which, I believe, gives me an edge in the domains of computer science and mathematics and which I look forward to continuing to put to use in graduate school.
+\input{tex/research.tex}
 
-Fast forward to my REU with the Swarm Lab at NJIT last summer.
-I sat at my new desk in the open-plan office after a preliminary meeting with visiting mathematics professor Jason Graham and primary investigator Simon Garnier consumed by a swirl of surprise, adrenaline, and, also, a little panic.
-The meeting boiled down to this:
-``Here's the problem.
-Here are some resources.
-Take a crack at it.''
-Although I was initially surprised and intimidated by the extent of the autonomy and discretion they entrusted to me, in retrospect I wouldn't have had it any other way; owning my work was personally rewarding and, I believe, ultimately contributed to its quality.
-My task was to extend mathematical models of ant foraging, which are well-developed on flat surfaces, to uneven terrains.
-It is well known that, as a collective, ants can optimize the foraging path they travel between nest and food.
-On flat terrain, a clear ``best'' path exists: the shortest-distance foraging path, the most energy-efficient path, and the quickest-trip path are all identical.
-On uneven terrains, however, this is no longer necessarily the case and the question of which trade-offs ants make --- and how they make them --- is of great interest.
-After surveying existing models of ant foraging behavior on flat terrain and individual ant behavior on inclined surfaces, I designed and numerically evaluated a differential equations-based model of the foraging behavior of ants over uneven terrain.
-Analysis of time series of ant positions and orientations generated via simulation revealed that as the severity of the incline the ants traverse increases, the model predicts that ants will tend to favor a more direct and less variable foraging path.
+\input{tex/interests.tex}
 
-My model will see continued use, enabling the Swarm Lab to work out the rules by which real ants act on uneven terrain in a foraging context by simulating hypothesized behaviors and assessing the resulting foraging path predictions in comparison with upcoming in vivo ant foraging experiments.
-Ultimately, research into the collective intelligence of insects translates directly to technological applications; for example, such research has been leveraged in swarm robotics projects, such as NASA's ant-inspired ``Swarmies'' that may one day harvest resources for Martian colonies and distributed traffic management schemes (especially in relation to autonomous vehicles).
-On a personal level, this research experience has translated into a penchant for autonomously chewing on difficult problems, which will serve me well throughout graduate school.
-
-%\section{Research Interests}
-
-My research interests lie in a rather niche field: evolutionary computing, which aims to generate well-adapted solutions to problems through iterative recombination and mutation of candidate solutions.
-I stumbled into the field while waiting at an interminable red light on my bike.
-I reasoned that the dynamics of traffic flow through a network of irregular intersections are so complicated and nuanced that an optimal (or, at least, near-optimal) system lies beyond the reach of traditional heuristic design approaches.
-An article I had encountered years prior about performing evolution on field programmable gate arrays surfaced in my memory.
-I toyed with the problem for a few days --- developing an approach that, in retrospect, falls under the purview of linear genetic programming --- and then, after working up the courage, booted up my text editor and jumped headfirst into implementing it.
-Although my interest in evolutionary computing began as a hobby, in short order I fell down the rabbit hole.
-It was exhilarating to see that the ideas I was exploring were of interest to others.
-Inspired by scholarly literature on genetic programming, I switched my evolutionary algorithm to tournament-based selection and incorporated page-based recombination.
-Although traffic control had originally sparked my interest, I quickly switched to working in other, more standard, problem domains such as pole balancing and maze exploration.
-Receiving guidance from my undergraduate advisor Professor Smith, with whom I had developed tools to extract mouse vocalizations from noisy recordings during the summer of 2015, I wrote a mock project proposal laying out the design for a system of concurrent instruction readers to parse a linear instruction set.
-The aim of this scheme was to secure a genotype-phenotype encoding more robust to mutation and recombination.
-Carrying out this project was an invaluable opportunity to learn and explore by playing in the sandbox.
-
-My next foray into the field of evolutionary computing has been much more systematic.
-This year, I have been working with Professor Chambers on my senior thesis.
-With her guidance, I designed a thesis project exploring Evolving Artificial Neural Networks (EANNs), a widely-explored alternative to the backpropagation method of network training.
-Designing EANNs to be highly evolvable  ---  promoting the generation of useful variation during the evolutionary process  ---  is a difficult, but important, task.
-My thesis project focuses on synthesizing a conceptual framework for evolvability and empirically investigating the relationship between developmental canalization against environmental perturbation and evolvability.
-Developmental canalization against environmental perturbation has been hypothesized to promote the accumulation of neutral genetic variation in a population, a phenomenon that promotes evolvability.
-I aim to asses the feasibility of leveraging this theoretical construct to promote evolvability in EANN, an interesting (and potentially useful) line of inquiry in the field of EANN.
-This work also has broader relevance, particularly in the field of evolutionary biology, which is grappling with the relationship between environmental influence on the phenotype and evolution.
-
-
-%\section{Career Aspirations}
-Although my interest lies in fundamental research, by porting the design principles of biology over to algorithm design I hope to contribute to the development of more capable and versatile artificial intelligence systems.
-Beneath my own curiosity and ambition, I feel a moral imperative to participate in this work.
-In my experience, the motivations of scientists --- especially those working in technology-driven fields --- can often come off as cerebral and abstract.
-(I recall, in particular, attending a talk that closed with back-of-a-napkin calculation of the limit imposed by relativistic constraints on the maximum number of human lives we could create over the lifespan of the universe).
-I strive to check this tendency in myself by exercising self-awareness and engaging directly with causes I believe in, such as youth outreach.
-When reflecting on the human impact of artificial intelligence, I am reminded of my father, who volunteers with the Dial-A-Bus program in Benton county.
-He serves individuals who would be otherwise unable to get around town, curtailing their ability to fully participate in the community.
-I hope that, through applications such as autonomous vehicles that counteract disability and free us from dangerous or simply menial tasks, stronger artificial intelligence will enable people to more fully exercise their human capabilities and, thereby, lay a fuller claim to their humanity.
-
-%\subsection{How NSF GRFP funding would help}
-
-I am excited to continue exploring the field of evolutionary computation through graduate education, an experience which GRFP funding would turbocharge.
-Beyond freeing up my time to focus on research, it would allow me to study at institutions with smaller computer science departments where funding might be less certain but which are forerunners in the field of evolutionary computing, such the University of Wyoming.
-Not only would these programs align best with my interests, but they would provide the type of close-knit community that I thrive in.
-
-
-My ultimate career aspiration is to channel my graduate education into a career in industry.
-In just the last few years there has been a surge of bio-AI activity in the technology sector; large technology companies such as Google and Facebook have jumped into the field and new players that specialize in bio-AI, such as evolutionary computing-focused Sentient Technologies, have come to the table.
-The results that corporate investment has already yielded, such as AlphaGo's besting of human play at the notoriously difficult game of Go or human-level image recognition, are already concrete, abundant, and --- moreover --- exciting.
-The electrifying potential in industry stems from the unique outlet it provides to connect theory and application and from the unparalleled resources it musters --- in terms of computational power and data, but also in terms of talent;
-industry hosts a thriving and collaborative community of thought-leaders in AI, a group which I plan to join.
-In the meantime, I am excited to jump into studying bio-inspired approaches to AI at the graduate level.
-NSF GRFP support would allow me to hit the ground running.
+\input{tex/career.tex}
 
 \end{document}
 
