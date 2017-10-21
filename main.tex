@@ -4,7 +4,7 @@
 \usepackage{amsmath}
 \usepackage{graphicx}
 \usepackage{setspace}
-\usepackage{biblatex}
+\usepackage[autocite = superscript,style = nature]{biblatex}
 \usepackage{mathptmx}
 \addbibresource{Mendeley.bib}
 
@@ -14,12 +14,8 @@
 \author{Matthew Moreno}
 \pagenumbering{gobble}
 
-\usepackage{ragged2e}
-\setlength{\RaggedRightParindent}{\parindent}
-
-
-\hyphenpenalty=10000
-\exhyphenpenalty=10000
+\raggedright
+\setlength{\parindent}{2em}
 
 \begin{document}
 
@@ -32,6 +28,8 @@
 \input{tex/career_goals.tex}
 
 \input{tex/conclusion.tex}
+
+\input{tex/bibliography.tex}
 
 \end{document}
 
